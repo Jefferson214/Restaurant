@@ -1,0 +1,144 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  background-image: url('foodbackground.jpg');
+  background-size: cover;
+  height: 100%;
+  padding: 20px;
+  overflow: hidden; 
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgb(255, 110, 110);
+  font-size: 24px;
+}
+
+.subtitle {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  color: rgb(253, 110, 110);
+  font-size: 18px;
+}
+
+.menu-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  border: 1px solid rgb(251, 123, 123); 
+  padding: 5px 10px; 
+}
+
+.restaurant-box1 {
+  width: 24%;
+  height: 700px;
+  margin: 50px auto 10px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  overflow: hidden; 
+  border: 5px solid rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center; 
+  background-image: url('Jollibee.jpg'); 
+}
+.restaurant-box2 {
+  width: 24%;
+  height: 700px;
+  margin: 50px auto 10px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  overflow: hidden; 
+  border: 5px solid rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center; 
+  background-image: url('McDonalds.jpg'); 
+}
+.restaurant-box3 {
+  width: 24%;
+  height: 700px;
+  margin: 50px auto 10px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  overflow: hidden; 
+  border: 5px solid rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center; 
+  background-image: url('KFC.webp'); 
+}
+.restaurant-box4 {
+  width: 24%;
+  height: 700px;
+  margin: 50px auto 10px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  overflow: hidden; 
+  border: 5px solid rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center; 
+  background-image: url('Popeyes.jpg'); 
+}
+.restaurant-box1:hover .description {
+  display: block;
+  opacity: 1; 
+}
+.restaurant-box2:hover .description {
+  display: block;
+  opacity: 1; 
+}
+.restaurant-box3:hover .description {
+  display: block;
+  opacity: 1; 
+}
+.restaurant-box4:hover .description {
+  display: block;
+  opacity: 1; 
+}
+
+.box-content {
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s;
+}
+
+.description {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  background-image: url('fooddescbg.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  transition: opacity 0.3s; 
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+}
